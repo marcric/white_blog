@@ -1,3 +1,4 @@
+<% if not @posts.nil? %> <!-- added by MarcRic 2008-01-18 -->
  <h1> <%= @posts.title %> </h1>
 		 <i> <%= @user.first_name %> <%= @user.last_name %> </i>
  <br />
@@ -44,3 +45,4 @@
 
  <br />
  <% end %>
+<% end %> <!-- added by MarcRic 2008-01-18 -->

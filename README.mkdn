@@ -1,0 +1,55 @@
+# White Blog
+
+## O que é?
+
+O White Blog foi idealizado por [André Moura][am], para melhor aprender a tecnologia Ruby on Rails.
+
+É um blog extremamente simples, mas possui as funcionalidades básicas de um blog.
+
+A ideia é que ele seja simples mesmo, sem frescura e com o mínimo de código possível.
+
+## O que falta fazer?
+
+Fazer mais testes de instalação e execução e melhorar este ítem aqui.
+
+Implementar uma "confirmação negativa" simples, para evitar spans nos comentários.
+
+Fazer a cobertura de testes 100% com Rspec.
+
+## Como faço para instalar?
+
+As configurações de usuário ficam em  db/migrate/20090117152123_add_default_user_admin.rb.
+
+Foi configurado por padrão o usuário "admin" com a senha "123mudar". 
+
+Neste arquivo você pode alterar estas e outras características.
+
+## Como faço para executar?
+
+Se você quiser fazer um teste e ver na prática, basta configurar o arquivo database.yml.
+
+Partindo do arquivo config/database.example alterando de acordo com as suas necessidades, e salvando como config/database.yml
+
+Depois disso, execute:
+
+rake db:create:all
+
+rake db:migrate
+
+ruby script/server
+
+## Dicas, críticas, dúvidas, sugestões ou BUGs, é só me falar :).
+
+Por favor, entre em contato! É fácil e rápido. Basta acessar:
+
+    http://andrem.wordpress.com/about/
+
+##Contribuições até o momento:
+
+* [MarcRic][mr]
+* [Pessoal da lista Rails-BR][rbr]
+
+
+[am]: http://andrem.wordpress.com/
+[mr]: http://www.marcric.com/
+[rbr]: http://groups.google.com/group/rails-br?hl=pt-BR
