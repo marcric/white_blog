@@ -42,7 +42,7 @@ ruby script/server
 
 Please keep in touch! It is fast and easy. Just leave a comment here:
 
-    [White Blog feed back][ama]
+[White Blog feed back][ama]
 
 ## Contributions so far:
 
