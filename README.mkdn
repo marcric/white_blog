@@ -40,9 +40,9 @@ ruby script/server
 
 ## Tips, comments, feedback, suggestions and BUG reports are welcome.
 
-Please keep in touch! It is fast and easy. Just access:
+Please keep in touch! It is fast and easy. Just leave a comment here:
 
-    http://andrem.wordpress.com/about/
+    [White Blog feed back][ama]
 
 ## Contributions so far:
 
@@ -53,3 +53,4 @@ Please keep in touch! It is fast and easy. Just access:
 [am]: http://andrem.wordpress.com/
 [mr]: http://www.marcric.com/
 [rbr]: http://groups.google.com/group/rails-br?hl=pt-BR
+[ama]: http://andrem.wordpress.com/about/
