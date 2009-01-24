@@ -2,7 +2,7 @@
 
 ## What is it?
 
-The White Blog was idealized by [André Moura][am], to best understand the Ruby on Rails technology.
+The White Blog was idealized by [Andre Moura][am], to best understand the Ruby on Rails technology.
 
 It is a very simple blog, but has all the basic functionalities a blog must have.
 

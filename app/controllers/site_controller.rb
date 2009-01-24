@@ -3,9 +3,9 @@ class SiteController < ApplicationController
 
  def index
    @posts = Post.last
-   if not @post.nil?  # added by MarcRic 2008-01-18
+   if not @post.nil?  # added by MarcRic 2008-01-19
     get_comment_user_for_post(@posts)
-   end  # added by MarcRic 2008-01-18
+   end  # added by MarcRic 2008-01-19
  end
 
   def add_comment_for_post
