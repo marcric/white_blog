@@ -1,36 +1,36 @@
 # White Blog
 
-## O que é?
+## What is it?
 
-O White Blog foi idealizado por [André Moura][am], para melhor aprender a tecnologia Ruby on Rails.
+The White Blog was idealized by [André Moura][am], to best understand the Ruby on Rails technology.
 
-É um blog extremamente simples, mas possui as funcionalidades básicas de um blog.
+It is a very simple blog, but has all the basic functionalities a blog must have.
 
-A ideia é que ele seja simples mesmo, sem frescura e com o mínimo de código possível.
+That is the idea a straight and simple blog with minimum possible code on it.
 
-## O que falta fazer?
+## What is missing?
 
-Fazer mais testes de instalação e execução e melhorar este ítem aqui.
+*More installation and execution tests and improve the documentation.
 
-Implementar uma "confirmação negativa" simples, para evitar spans nos comentários.
+*Implement a simple "negative confirmation" routine to avoid spans on comments.
 
-Fazer a cobertura de testes 100% com Rspec.
+*Cover all that with 100% Rspec.
 
-## Como faço para instalar?
+## How to install?
 
-As configurações de usuário ficam em  db/migrate/20090117152123_add_default_user_admin.rb.
+The user configurations are on  db/migrate/20090117152123_add_default_user_admin.rb.
 
-Foi configurado por padrão o usuário "admin" com a senha "123mudar". 
+The default user is "admin" with password "123change". 
 
-Neste arquivo você pode alterar estas e outras características.
+On this file you can change this and other characteristics.
 
-## Como faço para executar?
+## How to execute it?
 
-Se você quiser fazer um teste e ver na prática, basta configurar o arquivo database.yml.
+If you want to make a practical test, just configure the database.yml file.
 
-Partindo do arquivo config/database.example alterando de acordo com as suas necessidades, e salvando como config/database.yml
+You can use the config/database.example as a starting point, changing it accordingly your needs and saving it as config/database.yml
 
-Depois disso, execute:
+After that, run:
 
 rake db:create:all
 
@@ -38,16 +38,16 @@ rake db:migrate
 
 ruby script/server
 
-## Dicas, críticas, dúvidas, sugestões ou BUGs, é só me falar :).
+## Tips, comments, feedback, suggestions and BUG reports are welcome.
 
-Por favor, entre em contato! É fácil e rápido. Basta acessar:
+Please keep in touch! It is fast and easy. Just access:
 
     http://andrem.wordpress.com/about/
 
-##Contribuições até o momento:
+## Contributions so far:
 
 * [MarcRic][mr]
-* [Pessoal da lista Rails-BR][rbr]
+* [People from Rails-BR discussion list][rbr]
 
 
 [am]: http://andrem.wordpress.com/
